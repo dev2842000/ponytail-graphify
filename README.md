@@ -41,7 +41,7 @@ graphify .
 # 2. Add this skill to your project
 mkdir -p .claude/skills/ponytail-graphify
 curl -o .claude/skills/ponytail-graphify/SKILL.md \
-  https://raw.githubusercontent.com/dev284200/ponytail-graphify/main/SKILL.md
+  https://raw.githubusercontent.com/dev2842000/ponytail-graphify/main/SKILL.md
 
 # 3. Add the routing rule to your CLAUDE.md
 echo "\n- Build, add, create, implement anything new → invoke ponytail-graphify first" >> CLAUDE.md
